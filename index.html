@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="stilus.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet"> 
+    <script src="main.js"></script>
+    <title>Mr.Kocka</title>
+</head>
+<body>
+<div id="contener">
+<!--Fejléc-->
+<section>
+  <div id="fejlec">
+            <div>
+            <h1 id="mr">Mr.Kocka</h1>
+            <h2 id="idezet">Programozok, tehát vagyok!</h2>
+            </div>
+  </div>
+</section>
+<!--Linkek és gombok-->
+<seciton>
+  <nav id='menu'>
+            <input type='checkbox' id='responsive-menu' onclick='updatemenu()'><label></label>
+            <ul>
+              <li><a class='dropdown-arrow'>Rólam</a>
+                <ul class='sub-menus'>
+                  <li><a href='./Rólam/rolam.html'>Egy Kocka</a></li>
+                  <li><a href='./feltol.html'>Inspirátor</a></li>
+                  <li><a href='./feltol.html'>Ajánlott oldalak</a></li>
+                </ul>
+              </li>
+              <li><a class='dropdown-arrow'>Írásaim</a>
+                <ul class='sub-menus'>
+                  <li><a href='http://'>írás1</a></li>
+                  <li><a href='http://'>Írás2</a></li>
+                  <li><a href='http://'>Írás3</a></li>
+                </ul>
+              </li>
+              <li><a class='dropdown-arrow'>Hírek</a>
+                <ul class='sub-menus'>
+                  <li><a href='./feltol.html'>Január</a></li>
+                  <li><a href='./feltol.html'>Február</a></li>
+                </ul>
+              </li>
+              <li><a class='dropdown-arrow'>Cikkek</a>
+                <ul class='sub-menus'>
+                  <li><a href='./feltol.html'>Ez egy cikk</a></li>
+                  <li><a href='./feltol.html'>Ez cikk kettő</a></li>
+                </ul>
+              </li>
+              <li><a class='dropdown-arrow'>Projektek</a>
+                <ul class='sub-menus'>
+                  <li><a href='./projek/babavaro/babavaro.html'>Babaváró</a></li>
+                  <li><a href='./feltol.html'>Projekt2</a></li>
+                  <li><a href='./feltol.html'>Projekt3</a></li>
+                </ul>
+              </li>
+              <li><a class='dropdown-arrow'>RPG</a>
+                <ul class='sub-menus'>
+                  <li><a href='./feltol.html'>Mi is ez?</a></li>
+                  <li><a href='./feltol.html'>M.A.G.U.S</a></li>
+                  <li><a href='./feltol.html'>D&D</a></li>
+                  <li><a href='./feltol.html'>DW</a></li>
+                </ul>
+              </li>
+            </li>
+            <li><a class='dropdown-arrow'>Galéria</a>
+              <ul class='sub-menus'>
+                <li><a href='./feltol.html'>3D</a></li>
+                <li><a href='./feltol.html'>Térképek</a></li>
+                <li><a href='./gallery/Egyebek/egyebek.html'>Egyebek</a></li>
+              </ul>
+            </li>
+            </ul>
+  </nav>
+</seciton>
+<!--Columnás középre-->
+<section>
+  <h1>Aktuális Projektjeim</h1>
+  <h2>A már kész projekteket dátummal jelölöm a jobb sarokban</h2>
+  <br>
+ <!--ElsőColumna-->
+<div class="row">
+    <div class="column">
+      <div class="card">
+        <a href="./projek/babavaro/babavaro.html"><img src="./Image/babavaro.png" alt="Jane" style="width:100%"></a>
+        <div class="container">
+          <h1>Baba Váró</h1>
+          <p class="title">Egy visszaszámoló</p>
+          <a href=".//projek/babavaro/babavaro.html"><p><button class="button">Megnézem</button></p></a>
+        </div>
+      </div>
+    </div>
+<!--MásodikColumna--> 
+    <div class="column">
+      <div class="card">
+        <img src="./Image/gyuru.png" alt="Mike" style="width:100%">
+        <div class="container">
+          <h1>Csináljunk valami mást</h1>
+          <p class="title">A Gyűrűk Ura és az Ikrek</p>
+          <p><button id="meg" class="button">Megnézem</button></p>
+        </div>
+      </div>
+    </div>
+<!--HarmadikColumna-->
+    <div class="column">
+      <div class="card">
+        <img src="./Image/image1.png" alt="John" style="width:100%">
+        <div class="container">
+          <h1>Ötletre Váró</h1>
+          <p class="title">Egy új projekt helye</p>
+          <p><button class="button">Megnézem</button></p>
+        </div>
+      </div>
+    </div>
+<!--NegyedikColumna-->
+    <div class="row">
+      <div class="column">
+        <div class="card">
+          <img src="./Image/image1.png" alt="Jane" style="width:100%">
+          <div class="container">
+            <h1>Ötletre Váró</h1>
+            <p class="title">Egy új projekt helye</p>
+            <p><button class="button">Megnézem</button></p>
+          </div>
+        </div>
+    </div>
+<!--ÖtödikColumna--> 
+    <div class="column">
+      <div class="card">
+        <img src="./Image/image1.png" alt="Mike" style="width:100%">
+        <div class="container">
+          <h1>Ötletre Váró</h1>
+          <p class="title">Egy új projekt helye</p>
+          <p><button class="button">Megnézem</button></p>
+        </div>
+      </div>
+    </div>
+ <!--HatodikColumna-->
+    <div class="column">
+      <div class="card">
+        <img src="./Image/image1.png" alt="John" style="width:100%">
+        <div class="container">
+          <h1>Ötletre Váró</h1>
+          <p class="title">Egy új projekt helye</p>
+          <p><button class="button">Megnézem</button></p>
+        </div>
+      </div>
+    </div>
+</div>
+</div>
+</section>
+<!--Copy és elérhetőség-->
+<section>
+<div id="copy">
+  <ul id="soc">
+    <li><a href="#"><img class="sockep" src="./Image/021-facebook.png" alt="facebookLogo"></a></li>
+    <li><a href="#"><img class="sockep" src="./Image/025-instagram.png" alt="instagramLogo"></a></li>
+    <li><a href="#"><img class="sockep" src="./Image/011-youtube.png" alt="youtubelogo"></a></li>
+    <li><a href="#"><img class="sockep" src="./Image/041-pinterest.png" alt="pinterestLogo"></a></li> 
+  </ul>
+</div>
+Copyright &copy; 2021 Mr. Kocka
+</section>
+<button onclick="topFunction()" id="myBtn" title="Oldal tetejére!"><img src="./Image/nyil.png" alt="nyil"></button>
+
+<!--JavaScript-->
+<script>
+  //Get the button
+  var mybutton = document.getElementById("myBtn");
+  
+  // When the user scrolls down 20px from the top of the document, show the button
+  window.onscroll = function() {scrollFunction()};
+  
+  function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      mybutton.style.display = "block";
+    } else {
+      mybutton.style.display = "none";
+    }
+  }
+  
+  // When the user clicks on the button, scroll to the top of the document
+  function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
+</script>
+<script>
+      var slideIndex = 1;
+      showSlides(slideIndex);
+      
+      function plusSlides(n) {
+        showSlides(slideIndex += n);
+      }
+      
+      function currentSlide(n) {
+        showSlides(slideIndex = n);
+      }
+      
+      function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("dot");
+        if (n > slides.length) {slideIndex = 1}    
+        if (n < 1) {slideIndex = slides.length}
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";  
+        dots[slideIndex-1].className += " active";
+      }
+      //automatizator
+      var slideIndex = 0;
+      showSlides();
+
+      function showSlides() {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) {slideIndex = 1}
+      slides[slideIndex-1].style.display = "block";
+       setTimeout(showSlides, 3000); // Change image every 2 seconds
+      } 
+</script>
+
+</body>
+</html>
